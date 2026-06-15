@@ -10,12 +10,13 @@ VCF **9.1** 기반 **Private AI** — PAIF(Private AI Foundation with NVIDIA) / 
 | ② | [vcf-dsm-vectordb-guide](https://github.com/JaeHoYun/vcf-dsm-vectordb-guide) | RAG용 엔터프라이즈 벡터 DB · pgvector (데이터) |
 | ③ | [vcf-paif-serving-api-guide](https://github.com/JaeHoYun/vcf-paif-serving-api-guide) | OpenAI 호환 모델 서빙 API (서빙) |
 | ④ | [vcf-rag-reference-architecture](https://github.com/JaeHoYun/vcf-rag-reference-architecture) | 엔드투엔드 RAG 레퍼런스 아키텍처 (통합) |
+| ⑤ | [vcf-private-ai-security-governance](https://github.com/JaeHoYun/vcf-private-ai-security-governance) | 위협모델·격리·접근통제·공급망·데이터 거버넌스·감사 (보안·거버넌스) |
 
 **시리즈 허브:** [vcf-private-ai-series](https://github.com/JaeHoYun/vcf-private-ai-series)
 
 ### 다루는 주제
 
-`VCF` · `PAIF` · `PAIS` · `vSAN` · `NSX` · `DLVM` · `vLLM` · `RAG` · `VectorDB` · `pgvector` · `Model Serving` · `MCP` · `Agent Builder`
+`VCF` · `PAIF` · `PAIS` · `vSAN` · `NSX` · `DLVM` · `vLLM` · `RAG` · `VectorDB` · `pgvector` · `Model Serving` · `MCP` · `Agent Builder` · `Security` · `Governance`
 
 ---
 
