@@ -15,6 +15,12 @@ VCF **9.1** 기반 **Private AI** — PAIF(Private AI Foundation with NVIDIA) / 
 
 **시리즈 허브:** [vcf-private-ai-series](https://github.com/JaeHoYun/vcf-private-ai-series)
 
+### 관련 가이드 — AI 전환(AX) 방법론
+
+위 시리즈가 Private AI를 떠받치는 **인프라·구현**이라면, 그 위에서 "AI 전환을 조직 차원에서 어떻게 추진하는가"라는 **상위 전략·방법론**은 다음 독립 가이드에서 다룹니다.
+
+- [enterprise-ax-methodology](https://github.com/JaeHoYun/enterprise-ax-methodology) — 기업용 AX(AI Transformation) 방법론. DX 답습형 AX의 실패 진단, 증거 기반 증분 전환이라는 대안, 검증된 유스케이스를 Private AI로 갖추는 구현 전략 (위 시리즈를 구현 경로로 참조)
+
 ### 다루는 주제
 
 `VCF` · `PAIF` · `PAIS` · `vSAN` · `NSX` · `DLVM` · `vLLM` · `RAG` · `VectorDB` · `pgvector` · `Model Serving` · `MCP` · `Agent Builder` · `Security` · `Governance`
