@@ -1,7 +1,6 @@
 
 **엔터프라이즈 프라이빗 클라우드와 Private AI 인프라를 도입하고, 현장에서 바로 참고할 수 있는 실무 가이드 정리.**
-
-관심 분야: VMware Cloud Foundation · Private AI(PAIF/PAIS) · Enterprise AI Transformation(AX)
+Moderon Private Cloud(VCF) · Private AI(PAIF/PAIS) · Enterprise AI Transformation(AX)
 
 ### 공개 가이드
 
