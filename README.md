@@ -1,15 +1,18 @@
 
 **엔터프라이즈 프라이빗 클라우드와 Private AI 인프라를 도입하고, 현장에서 바로 참고할 수 있는 실무 가이드 정리.**
-Moderon Private Cloud(VCF) · Private AI(PAIF/PAIS) · Enterprise AI Transformation(AX)
+Modern Private Cloud(VCF) · Private AI(PAIF/PAIS) · Enterprise AI Transformation(AX)
 
 ### 공개 가이드
 
-- **[VCF Private AI 가이드 시리즈](https://github.com/JaeHoYun/vcf-private-ai-series)** (8부작) — VCF 9.1 기반 Private AI를 인프라·데이터·서빙·통합·보안·사이징·설계·에이전트로 다루는 실무 시리즈.
-- **[기업용 AX 방법론 가이드](https://github.com/JaeHoYun/enterprise-ax-methodology)** — DX 답습형 AX의 실패 진단 → 증거 기반 증분 전환 → Private AI 기반 구현 전략.
+엔터프라이즈 AI를 **전략 → 인프라 → 에이전트** 한 흐름으로 잇는 실무 가이드입니다.
+
+1. **[기업용 AX 방법론 가이드](https://github.com/JaeHoYun/enterprise-ax-methodology)** — 전략. AI 전환(AX)을 어디서·왜 시작하나: DX 답습형 AX의 실패 진단 → 증거 기반 점진적 전환 → Private AI 기반 구현 전략. (벤더중립 방법론)
+2. **[VCF Private AI 가이드 시리즈](https://github.com/JaeHoYun/vcf-private-ai-series)** (8부작) — 인프라. VCF 9.1 PAIF로 Private AI 플랫폼을 인프라·데이터·서빙·RAG·보안·사이징·설계로 구축·운영.
+3. **[PAIS 에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-agents)** (시리즈 ⑧) — 에이전트. 그 플랫폼 위 PAIS 2.1 Agent Builder·MCP로 에이전트 서비스를 개발·구축·운영.
 
 ### 주제
 
-`VCF` · `Private AI` · `PAIF` · `PAIS` · `vSAN` · `NSX` · `RAG` · `AX` · `Enterprise Architecture`
+`VCF` · `Private AI` · `PAIF` · `PAIS` · `vSAN` · `NSX` · `RAG` · `Agents` · `MCP` · `AX` · `Enterprise Architecture`
 
 ---
 
