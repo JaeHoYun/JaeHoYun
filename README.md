@@ -4,7 +4,7 @@ Moderon Private Cloud(VCF) · Private AI(PAIF/PAIS) · Enterprise AI Transformat
 
 ### 공개 가이드
 
-- **[VCF Private AI 가이드 시리즈](https://github.com/JaeHoYun/vcf-private-ai-series)** (7부작) — VCF 9.1 기반 Private AI를 인프라·데이터·서빙·통합·보안·사이징·설계로 다루는 실무 시리즈.
+- **[VCF Private AI 가이드 시리즈](https://github.com/JaeHoYun/vcf-private-ai-series)** (8부작) — VCF 9.1 기반 Private AI를 인프라·데이터·서빙·통합·보안·사이징·설계·에이전트로 다루는 실무 시리즈.
 - **[기업용 AX 방법론 가이드](https://github.com/JaeHoYun/enterprise-ax-methodology)** — DX 답습형 AX의 실패 진단 → 증거 기반 증분 전환 → Private AI 기반 구현 전략.
 
 ### 주제
