@@ -16,4 +16,4 @@ Modern Private Cloud(VCF) · Private AI(PAIF/PAIS) · Enterprise AI Transformati
 
 ---
 
-> 공개 가이드는 모두 비공식 문서이며 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)으로 제공됩니다. 벤더 공식 입장을 대변하지 않습니다.
+> 이 깃헙의 공개 가이드는 모두 비공식 문서이며 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)으로 제공됩니다. 벤더 공식 입장을 대변하지 않습니다.
