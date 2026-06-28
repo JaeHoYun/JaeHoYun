@@ -4,11 +4,14 @@ Modern Private Cloud(VCF) · Private AI(PAIF/PAIS) · Enterprise AI Transformati
 
 ### 공개 가이드
 
-엔터프라이즈 AI를 **전략 → 인프라 → 에이전트** 한 흐름으로 잇는 실무 가이드입니다.
+엔터프라이즈 AI를 **전략 → 인프라 → 에이전트** 까지 통합 검토할 수 있도록 구성한 실무 가이드
 
-1. **[기업용 AX 방법론 가이드](https://github.com/JaeHoYun/enterprise-ax-methodology)** — 전략. AI 전환(AX)을 어디서·왜 시작하나: DX 답습형 AX의 실패 진단 → 증거 기반 점진적 전환 → Private AI 기반 구현 전략.
-2. **[VCF Private AI (PAIF) 인프라 가이드](https://github.com/JaeHoYun/vcf-private-ai)** — 인프라. VCF 9.1 PAIF로 Private AI 플랫폼을 인프라·데이터·서빙·RAG·보안·사이징·설계로 구축·운영.
-3. **[PAIS 에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-agents)** — 에이전트. 그 플랫폼 위 PAIS 2.1 Agent Builder·MCP로 에이전트 서비스를 개발·구축·운영.
+1. **[기업용 AX 방법론 가이드](https://github.com/JaeHoYun/enterprise-ax-methodology)**
+2. — 전략. AI 전환을 어떻게 시작할 지 현황 진단 진단 → 데이터 기반 점진적 전환 → Private AI 기반 구현 전략.
+3. **[VCF Private AI (PAIF) 인프라 가이드](https://github.com/JaeHoYun/vcf-private-ai)**
+4. — 인프라. VCF 9.1 PAIF 플랫폼을 인프라·데이터·서빙·RAG·보안·사이징·설계 단계로 구축 및 운영.
+5. **[PAIS 에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-agents)**
+6. — 에이전트. 그 플랫폼 위 PAIS 2.1 Agent Builder·MCP로 에이전트 서비스를 개발, 구축, 운영.
 
 ### 주제
 
