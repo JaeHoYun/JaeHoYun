@@ -1,11 +1,11 @@
-**엔터프라이즈 프라이빗 클라우드와 Private AI 인프라를 도입하고, 현장에서 바로 참고할 수 있는 실무 가이드 정리.**
+**엔터프라이즈 프라이빗 클라우드와 Private AI를 전략, 플랫폼, 앱과 에이전트 서비스까지 현장에서 바로 참고할 수 있게 정리한 실무 가이드.**
 Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation(AX)
 
 ### 가이드 구성
 
-세 가이드는 **전략 → 플랫폼 → 워크로드** 순서로 구성되어 있습니다. 문서는 모두 96편이며, 가이드 사이에 관련 문서 링크를 두어 필요한 부분만 골라 읽을 수 있습니다.
+세 가이드는 **전략 → 플랫폼 → 실행** 순서로 구성되어 있습니다. 문서는 모두 96편이며, 가이드 사이에 관련 문서 링크를 두어 필요한 부분만 골라 읽을 수 있습니다.
 
-| 1. 전략 → | 2. 플랫폼 → | 3. 워크로드 |
+| 1. 전략 → | 2. 플랫폼 → | 3. 실행 |
 |---|---|---|
 | **[기업용 AX 방법론](https://github.com/JaeHoYun/enterprise-ax-methodology)**<br>벤더 중립, 11편 | **[VCF Private AI 인프라](https://github.com/JaeHoYun/vcf-private-ai)**<br>PAIF / PAIS, Primer 포함 70편 | **[VCF Private AI 앱과 에이전트 서비스](https://github.com/JaeHoYun/vcf-private-ai-apps)**<br>15편 |
 | 진단 → 대안 → 운영모델 → 로드맵 → 거버넌스 | 인프라 → 데이터 → 서빙 → RAG, 보안, 사이징, 통합 설계 | 기획과 선정 → 설계 → 구축 → 검증과 출시 → 운영과 종료 |
@@ -13,21 +13,34 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 
 1. **[기업용 AX 방법론 가이드](https://github.com/JaeHoYun/enterprise-ax-methodology)** — 전략. DX 방식을 그대로 따르는 AX가 왜 실패하는지 진단하고, 그 대안으로 증거 기반의 점진적 전환 방법과 운영모델, 전사 확장, 로드맵, AI 거버넌스를 벤더 중립으로 정리했습니다. 07장에서 Private AI를 구현 방안으로 다루며 2번 가이드와 연결됩니다.
 2. **[VCF Private AI (PAIF) 인프라 가이드](https://github.com/JaeHoYun/vcf-private-ai)** — 플랫폼. VCF 9.1.x PAIF 플랫폼(PAIS 3.0)의 구축과 운영을 인프라, 벡터 DB, 서빙 API, RAG, 보안과 거버넌스, 사이징과 비용, 통합 설계의 일곱 편으로 나누어 다룹니다. AI와 쿠버네티스가 익숙하지 않은 인프라 담당자를 위한 입문(Primer) 편도 있습니다.
-3. **[VCF Private AI 앱과 에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-apps)** — 워크로드. PAIF 플랫폼 위에서 LLM 앱, RAG 앱, 배치 파이프라인, 에이전트 서비스를 기획, 설계, 구축, 검증, 운영하는 방법을 서비스 수명주기 순서로 다룹니다. PAIS 3.0 Agent Builder와 MCP로 에이전트를 구현하는 방법과 어떤 업무에 적용해야 효과가 있는지를 포함합니다.
+3. **[VCF Private AI 앱과 에이전트 서비스 가이드](https://github.com/JaeHoYun/vcf-private-ai-apps)** — 실행. PAIF 플랫폼 위에서 LLM 앱, RAG 앱, 배치 파이프라인, 에이전트 서비스를 기획, 설계, 구축, 검증, 운영하는 방법을 서비스 수명주기 순서로 다룹니다. 어떤 업무에 적용해야 효과가 있는지와 위험 등급 판정에서 시작해, 사용자 신원 전파, 게이트웨이와 토큰 예산 소비, 문서보안이 걸린 문서의 인입, 사내 시스템 쓰기 설계, PAIS 3.0 Agent Builder와 MCP 구현, 서비스 보안 준비와 출시 심사, 운영과 퇴역까지 앱 팀이 실제로 정해야 하는 것을 다룹니다.
 
 ### 상황별 추천 순서
+
+**전략** — 무엇을 어떤 순서로 바꿀지 정하는 단계입니다.
 
 | 상황 | 먼저 읽을 문서 | 다음 문서 |
 |---|---|---|
 | AI 전환을 어디서부터 시작할지 정해야 하는 기획, 경영 담당자 | [AX 00 오리엔테이션](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/00-orientation.md) → 01 진단 → 03 대안 | 04 유스케이스 → 05 운영모델 → 08 로드맵 |
 | 이미 AI 도구를 여럿 쓰고 있어 정비가 필요한 조직 | [AX 09 브라운필드 진단](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/09-brownfield-assessment.md) | 10 AI 거버넌스 → 06 전사 확장 |
+| AI 기본법과 금융 AI 가이드라인 대응을 준비하는 컴플라이언스, 법무 담당자 | [AX 10 AI 거버넌스](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/10-governance.md) → [부록 A2 국내 규제 타임라인](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/appendix/A2-kr-regulatory-timeline.md) | Private AI 05 보안 07의 7.4.3절 → 앱 가이드 11의 11.6절 고지 → 13의 13.10절 출시 심사 패키지 |
+
+**플랫폼** — Private AI 플랫폼을 세우고 보호하고 산정하는 단계입니다.
+
+| 상황 | 먼저 읽을 문서 | 다음 문서 |
+|---|---|---|
 | 가상화는 익숙하지만 AI와 쿠버네티스는 처음인 인프라 엔지니어 | [Private AI 입문(Primer)](https://github.com/JaeHoYun/vcf-private-ai/tree/main/00-foundations) | 01 인프라 → 06 사이징 → 07 통합 설계 |
 | PAIF 플랫폼 구축과 운영을 맡은 인프라, 플랫폼팀 | [Private AI 01 인프라](https://github.com/JaeHoYun/vcf-private-ai/tree/main/01-infra) | 02 벡터 DB → 05 보안 → 06 사이징 → 07 통합 설계 |
+| 보안 때문에 플랫폼 전체를 어떻게 설계하고 어디서부터 시작할지 정해야 하는 보안, 플랫폼 담당자 | [Private AI 05 보안 00 어디서부터 시작하나](https://github.com/JaeHoYun/vcf-private-ai/blob/main/05-security/docs/00-where-to-start.md) | 05 보안 08 에이전트 거버넌스 → 앱 가이드 12 서비스 보안 준비 |
+| 운영 중인 플랫폼을 VCF 9.1.1 / PAIS 3.0으로 업그레이드하는 운영자 | [Private AI 01-infra 00 What's New](https://github.com/JaeHoYun/vcf-private-ai/blob/main/01-infra/docs/00-whats-new.md) | 01-infra 10 운영 → 앱 가이드 14 운영 |
+
+**실행** — 그 플랫폼 위에서 서비스 하나를 만들고 책임지는 단계입니다.
+
+| 상황 | 먼저 읽을 문서 | 다음 문서 |
+|---|---|---|
 | 사내 API로 LLM, RAG 앱을 만드는 개발자 | [Private AI 03 서빙 API](https://github.com/JaeHoYun/vcf-private-ai/tree/main/03-serving-api) | 04 RAG → 앱 가이드 00~03 → 08 |
 | 에이전트 도입 여부와 적용 업무를 검토하는 담당자 | [앱 가이드 02 어디에 쓰나](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/02-use-cases.md) | AX 04 유스케이스 → 앱 가이드 03 설계 패턴 |
 | 앱 팀이 플랫폼 위에서 첫 서비스를 기획부터 출시까지 만든다 | [앱 가이드 00 개관](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/00-orientation.md) → 02 어디에 쓰나 | 04~07 설계 → 08~11 구축 → 12~13 검증과 출시 → 14 운영 |
-| 보안 때문에 플랫폼 전체를 어떻게 설계하고 어디서부터 시작할지 정해야 하는 보안, 플랫폼 담당자 | [Private AI 05 보안 00 어디서부터 시작하나](https://github.com/JaeHoYun/vcf-private-ai/blob/main/05-security/docs/00-where-to-start.md) | 05 보안 08 에이전트 거버넌스 → 앱 가이드 12 서비스 보안 준비 |
-| 운영 중인 플랫폼을 VCF 9.1.1 / PAIS 3.0으로 업그레이드하는 운영자 | [Private AI 01-infra 00 What's New](https://github.com/JaeHoYun/vcf-private-ai/blob/main/01-infra/docs/00-whats-new.md) | 01-infra 10 운영 → 앱 가이드 14 운영 |
 
 ### 다루는 질문
 
@@ -39,6 +52,8 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 - 에이전트의 가드레일과 운영 책임은 앱과 플랫폼 중 어디에 두는가 (앱 가이드 12, 13, 14, Private AI 05의 08)
 - API 게이트웨이는 지금 무엇으로 두고 로드맵에는 어떻게 대응하는가 (Private AI 03의 5.7절, 앱 가이드 05)
 - 문서보안이 걸린 문서를 검색 소스로 쓸 수 있는가, 전부 복호화해야 하는가 (앱 가이드 06, Private AI 05의 5.9절)
+- 한국어 문서와 HWP가 대부분인데 모델, 임베딩, 파이프라인은 무엇을 기준으로 고르는가 (앱 가이드 10의 10.7절, 06의 6.8절)
+- 공개 모델을 사내 서비스에 써도 되는가, 라이선스는 무엇을 확인하나 (앱 가이드 10의 10.8절, Private AI 05의 4.2절)
 
 ### 작성 원칙
 
