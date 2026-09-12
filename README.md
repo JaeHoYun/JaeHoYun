@@ -22,7 +22,7 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 | 상황 | 먼저 읽을 문서 | 다음 문서 |
 |---|---|---|
 | AI 전환을 어디서부터 시작할지 정해야 하는 기획, 경영 담당자 | [AX 00 오리엔테이션](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/00-orientation.md) → 01 진단 → 03 대안 | 04 유스케이스 → 05 운영모델 → 08 로드맵 |
-| 이미 AI 도구를 여럿 쓰고 있어 정비가 필요한 조직 | [AX 09 브라운필드 진단](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/09-brownfield-assessment.md) | 10 AI 거버넌스 → 06 전사 확장 |
+| 이미 AI 도구를 여럿 쓰고 있어 정비가 필요한 조직 | [AX 09 브라운필드 진단](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/09-brownfield-assessment.md) | 10 AI 거버넌스(10.4절 섀도 AI 발견과 양성화) → 06 전사 확장 |
 | AI 기본법과 금융 AI 가이드라인 대응을 준비하는 컴플라이언스, 법무 담당자 | [AX 10 AI 거버넌스](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/10-governance.md) → [부록 A2 국내 규제 타임라인](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/appendix/A2-kr-regulatory-timeline.md) | Private AI 05 보안 07의 7.4.3절 → 앱 가이드 11의 11.6절 고지 → 13의 13.10절 출시 심사 패키지 |
 
 **플랫폼** — Private AI 플랫폼을 세우고 보호하고 산정하는 단계입니다.
@@ -50,6 +50,7 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 - 같은 모델을 사업부마다 따로 배포하지 않으려면 어떻게 설계하는가 (Private AI 07의 3.4.1절, PAIS 3.0 공유 모델)
 - 에이전트는 어떤 업무에 효과가 있고 어떤 업무에서 실패하는가 (앱 가이드 02)
 - 에이전트의 가드레일과 운영 책임은 앱과 플랫폼 중 어디에 두는가 (앱 가이드 12, 13, 14, Private AI 05의 08)
+- 직원들이 승인 없이 쓰는 AI 도구(섀도 AI)는 어떻게 찾고, 금지 대신 어떻게 다루는가 (AX 10의 10.4절, Private AI 05의 7.2.3절)
 - API 게이트웨이는 지금 무엇으로 두고 로드맵에는 어떻게 대응하는가 (Private AI 03의 5.7절, 앱 가이드 05)
 - 문서보안(DRM)이 걸린 문서를 검색 소스로 안전하게 연결하려면 어떻게 하는가, 전부 복호화해야 하는가 (앱 가이드 06, Private AI 05의 5.9절)
 - 사내 문서가 한국어인데 모델, 임베딩, 파이프라인은 무엇을 기준으로 고르는가 (앱 가이드 10의 10.7절, 06의 6.8절)
