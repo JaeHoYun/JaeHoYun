@@ -38,9 +38,9 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 
 | 상황 | 먼저 읽을 문서 | 다음 문서 |
 |---|---|---|
-| 사내 API로 LLM, RAG 앱을 만드는 개발자 | [Private AI 03 서빙 API](https://github.com/JaeHoYun/vcf-private-ai/tree/main/03-serving-api) | 04 RAG → 앱 가이드 00~03 → 08 |
+| 사내 API로 LLM, RAG 앱을 만드는 개발자 | [Private AI 03 서빙 API](https://github.com/JaeHoYun/vcf-private-ai/tree/main/03-serving-api) | 04 RAG → 앱 가이드 00–03 → 08 |
 | 에이전트 도입 여부와 적용 업무를 검토하는 담당자 | [앱 가이드 02 어디에 쓰나](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/02-use-cases.md) | AX 04 유스케이스 → 앱 가이드 03 설계 패턴 |
-| 앱 팀이 플랫폼 위에서 첫 서비스를 기획부터 출시까지 만든다 | [앱 가이드 00 개관](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/00-orientation.md) → 02 어디에 쓰나 | 04~07 설계 → 08~11 구축 → 12~13 검증과 출시 → 14 운영 |
+| 앱 팀이 플랫폼 위에서 첫 서비스를 기획부터 출시까지 만든다 | [앱 가이드 00 개관](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/00-orientation.md) → 02 어디에 쓰나 | 04–07 설계 → 08–11 구축 → 12–13 검증과 출시 → 14 운영 |
 
 ### 다루는 질문
 
