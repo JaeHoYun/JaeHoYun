@@ -3,11 +3,11 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 
 ### 가이드 구성
 
-세 가이드는 **전략 → 플랫폼 → 워크로드** 순서로 구성되어 있습니다. 문서는 모두 88편이며, 가이드 사이에 관련 문서 링크를 두어 필요한 부분만 골라 읽을 수 있습니다.
+세 가이드는 **전략 → 플랫폼 → 워크로드** 순서로 구성되어 있습니다. 문서는 모두 96편이며, 가이드 사이에 관련 문서 링크를 두어 필요한 부분만 골라 읽을 수 있습니다.
 
 | 1. 전략 → | 2. 플랫폼 → | 3. 워크로드 |
 |---|---|---|
-| **[기업용 AX 방법론](https://github.com/JaeHoYun/enterprise-ax-methodology)**<br>벤더 중립, 11편 | **[VCF Private AI 인프라](https://github.com/JaeHoYun/vcf-private-ai)**<br>PAIF / PAIS, Primer 포함 68편 | **[VCF Private AI 앱과 에이전트 서비스](https://github.com/JaeHoYun/vcf-private-ai-apps)**<br>9편 |
+| **[기업용 AX 방법론](https://github.com/JaeHoYun/enterprise-ax-methodology)**<br>벤더 중립, 11편 | **[VCF Private AI 인프라](https://github.com/JaeHoYun/vcf-private-ai)**<br>PAIF / PAIS, Primer 포함 70편 | **[VCF Private AI 앱과 에이전트 서비스](https://github.com/JaeHoYun/vcf-private-ai-apps)**<br>15편 |
 | 진단 → 대안 → 운영모델 → 로드맵 → 거버넌스 | 인프라 → 데이터 → 서빙 → RAG, 보안, 사이징, 통합 설계 | 기획과 선정 → 설계 → 구축 → 검증과 출시 → 운영과 종료 |
 | 무엇을 어떤 순서로 바꿀 것인가 | 어떤 인프라로 구현할 것인가 | 그 위에서 어떤 서비스를 만들 것인가 |
 
@@ -25,6 +25,8 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 | PAIF 플랫폼 구축과 운영을 맡은 인프라, 플랫폼팀 | [Private AI 01 인프라](https://github.com/JaeHoYun/vcf-private-ai/tree/main/01-infra) | 02 벡터 DB → 05 보안 → 06 사이징 → 07 통합 설계 |
 | 사내 API로 LLM, RAG 앱을 만드는 개발자 | [Private AI 03 서빙 API](https://github.com/JaeHoYun/vcf-private-ai/tree/main/03-serving-api) | 04 RAG → 앱 가이드 00~03 → 08 |
 | 에이전트 도입 여부와 적용 업무를 검토하는 담당자 | [앱 가이드 02 어디에 쓰나](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/02-use-cases.md) | AX 04 유스케이스 → 앱 가이드 03 설계 패턴 |
+| 앱 팀이 플랫폼 위에서 첫 서비스를 기획부터 출시까지 만든다 | [앱 가이드 00 개관](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/00-orientation.md) → 02 어디에 쓰나 | 04~07 설계 → 08~11 구축 → 12~13 검증과 출시 → 14 운영 |
+| 보안 때문에 플랫폼 전체를 어떻게 설계하고 어디서부터 시작할지 정해야 하는 보안, 플랫폼 담당자 | [Private AI 05 보안 00 어디서부터 시작하나](https://github.com/JaeHoYun/vcf-private-ai/blob/main/05-security/docs/00-where-to-start.md) | 05 보안 08 에이전트 거버넌스 → 앱 가이드 12 서비스 보안 준비 |
 | 운영 중인 플랫폼을 VCF 9.1.1 / PAIS 3.0으로 업그레이드하는 운영자 | [Private AI 01-infra 00 What's New](https://github.com/JaeHoYun/vcf-private-ai/blob/main/01-infra/docs/00-whats-new.md) | 01-infra 10 운영 → 앱 가이드 14 운영 |
 
 ### 다루는 질문
@@ -34,7 +36,9 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 - GPU는 몇 장이 필요하고 총소유비용은 어떻게 산정하는가 (Private AI 06)
 - 같은 모델을 사업부마다 따로 배포하지 않으려면 어떻게 설계하는가 (Private AI 07의 3.4.1절, PAIS 3.0 공유 모델)
 - 에이전트는 어떤 업무에 효과가 있고 어떤 업무에서 실패하는가 (앱 가이드 02)
-- 에이전트의 가드레일과 운영 책임은 앱과 플랫폼 중 어디에 두는가 (앱 가이드 13, 14)
+- 에이전트의 가드레일과 운영 책임은 앱과 플랫폼 중 어디에 두는가 (앱 가이드 12, 13, 14, Private AI 05의 08)
+- API 게이트웨이는 지금 무엇으로 두고 로드맵에는 어떻게 대응하는가 (Private AI 03의 5.7절, 앱 가이드 05)
+- 문서보안이 걸린 문서를 검색 소스로 쓸 수 있는가, 전부 복호화해야 하는가 (앱 가이드 06, Private AI 05의 5.9절)
 
 ### 작성 원칙
 
