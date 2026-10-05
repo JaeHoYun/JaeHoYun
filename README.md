@@ -23,10 +23,11 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 |---|---|---|
 | AI 전환을 어디서부터 시작할지 정해야 하는 기획 담당자 | [AX 00 오리엔테이션](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/00-orientation.md) → 01 출발점 판별 → 02 문제를 보는 시선 → 03 문제 정의 | 04 검증 방식 → 05 해결 경로 선택 → 06 실행 환경 선택 |
 | 큰 그림만 빠르게 잡으려는 임원 | [AX 00 오리엔테이션](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/00-orientation.md)과 01–08장 첫머리의 요약 | 03 문제 정의의 3.7절 가상 예시 → 04의 4.6절 투자 판단 |
+| 파일럿을 계속할지 멈출지, 단일 ROI 숫자 없이 투자 판단을 받아야 하는 담당자 | [AX 04 검증 방식](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/04-validation.md) | 03의 3.4절 관문 질문 → 04의 4.6절 투자 판단 |
 | 문제는 오래전부터 아는데 조직 구조, 권한, 데이터 소유 때문에 손대지 못하는 조직 | [AX 01 출발점 판별](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/01-starting-point.md)(1.2.3절) | 03 문제 정의(3.3절 구조적 장애와 누구의 의제로 올릴지) |
 | 외부 전문가(FDE), 솔루션 구매, SI 위탁 가운데 누구에게 맡길지 정해야 하는 담당자 | [AX 05 해결 경로 선택](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/05-solve-path.md) | 04 검증 방식(4.3절 파일럿 단계의 경로) → 07의 7.1절 현업 오너 |
 | 퍼블릭과 온프렘 가운데 어디서 돌릴지, 이미 클라우드에 있는 것을 되돌릴지 정해야 하는 담당자 | [AX 06 실행 환경 선택](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/06-execution-environment.md) | Private AI 06 사이징 07의 7.6절 비교 프레임 → 07 통합 설계 08의 8.5절 온프렘 회귀 판정 |
-| 이미 AI 도구를 여럿 쓰고 있어 정비가 필요한 조직 | [AX 01 출발점 판별](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/01-starting-point.md)(1.4절 이미 AI를 쓰고 있는 조직) | 07 조직, 정착, 통제(7.6절 섀도 AI의 양성화) → Private AI 07 통합 설계의 [워크시트 03 자산 인벤토리](https://github.com/JaeHoYun/vcf-private-ai/blob/main/07-design/worksheet/03-ai-estate-inventory.md)와 04 6R 처분 → 06 사이징 부록 A4 FinOps 스코어카드 |
+| 이미 AI 도구를 여럿 쓰고 있어 정비가 필요한 조직 | [AX 01 출발점 판별](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/01-starting-point.md)(1.4절 이미 AI를 쓰고 있는 조직) | 07 조직, 정착, 통제(7.6절 섀도 AI의 양성화) → Private AI 05 보안의 7.2.3절 섀도 AI 후보 탐지 → 07 통합 설계의 [워크시트 03 자산 인벤토리](https://github.com/JaeHoYun/vcf-private-ai/blob/main/07-design/worksheet/03-ai-estate-inventory.md)와 04 6R 처분 → 06 사이징 부록 A4 FinOps 스코어카드 |
 | AI 기본법과 금융 AI 가이드라인 대응을 준비하는 컴플라이언스, 법무 담당자 | [AX 07 조직, 정착, 통제](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/docs/07-organization-and-control.md)(7.5절, 7.8절) → [부록 A2 국내 규제 타임라인](https://github.com/JaeHoYun/enterprise-ax-methodology/blob/main/appendix/A2-kr-regulatory-timeline.md) | Private AI 05 보안 07의 7.4.3절과 [거버넌스와 데이터주권 갭 워크시트](https://github.com/JaeHoYun/vcf-private-ai/blob/main/05-security/worksheet/governance-sovereignty-gap.md) → 앱 가이드 11의 11.6절 고지 → 13의 13.10절 출시 심사 패키지 |
 
 **플랫폼** — Private AI 플랫폼을 세우고 보호하고 산정하는 단계입니다.
@@ -35,8 +36,11 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 |---|---|---|
 | 가상화는 익숙하지만 AI와 쿠버네티스는 처음인 인프라 엔지니어 | [Private AI 입문(Primer)](https://github.com/JaeHoYun/vcf-private-ai/tree/main/00-foundations) | 01 인프라 → 06 사이징 → 07 통합 설계 |
 | PAIF 플랫폼 구축과 운영을 맡은 인프라, 플랫폼팀 | [Private AI 01 인프라](https://github.com/JaeHoYun/vcf-private-ai/tree/main/01-infra) | 02 벡터 DB → 05 보안 → 06 사이징 → 07 통합 설계 |
-| 보안 때문에 플랫폼 전체를 어떻게 설계하고 어디서부터 시작할지 정해야 하는 보안, 플랫폼 담당자 | [Private AI 05 보안 00 어디서부터 시작하나](https://github.com/JaeHoYun/vcf-private-ai/blob/main/05-security/docs/00-where-to-start.md) | 05 보안 08 에이전트 거버넌스 → 앱 가이드 12 서비스 보안 준비 |
+| 보안 때문에 플랫폼 전체를 어떻게 설계하고 어디서부터 시작할지 정해야 하는 보안, 플랫폼 담당자 | [Private AI 05 보안 00 어디서부터 시작하나](https://github.com/JaeHoYun/vcf-private-ai/blob/main/05-security/docs/00-where-to-start.md) | 05 보안 08 에이전트 거버넌스 → 앱 가이드 12 서비스 보안 준비 → 13 평가와 출시 게이트 → 14 운영 |
 | 운영 중인 플랫폼을 VCF 9.1.1 / PAIS 3.0으로 업그레이드하는 운영자 | [Private AI 01-infra 00 What's New](https://github.com/JaeHoYun/vcf-private-ai/blob/main/01-infra/docs/00-whats-new.md) | 01-infra 10 운영 → 앱 가이드 14 운영 |
+| GPU 수량과 총소유비용(TCO)을 산정해야 하는 담당자 | [Private AI 06 사이징](https://github.com/JaeHoYun/vcf-private-ai/tree/main/06-sizing-cost) | 07 통합 설계 |
+| 같은 모델을 사업부마다 따로 배포하지 않도록 설계하려는 아키텍트 | [Private AI 07 통합 설계 03](https://github.com/JaeHoYun/vcf-private-ai/blob/main/07-design/docs/03-compute-gpu-topology.md)(3.4.1절 PAIS 3.0 공유 모델) | 06 사이징 |
+| API 게이트웨이를 무엇으로 둘지 정해야 하는 플랫폼 담당자 | [Private AI 03 서빙 API 05](https://github.com/JaeHoYun/vcf-private-ai/blob/main/03-serving-api/docs/05-auth-and-gateway.md)(5.7절) | 앱 가이드 05 플랫폼 소비 |
 
 **실행** — 그 플랫폼 위에서 서비스 하나를 만들고 책임지는 단계입니다.
 
@@ -45,24 +49,9 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 | 사내 API로 LLM, RAG 앱을 만드는 개발자 | [Private AI 03 서빙 API](https://github.com/JaeHoYun/vcf-private-ai/tree/main/03-serving-api) | 04 RAG → 앱 가이드 00–03 → 08 |
 | 에이전트 도입 여부와 적용 업무를 검토하는 담당자 | [앱 가이드 02 어디에 쓰나](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/02-use-cases.md) | AX 03 문제 정의 → 앱 가이드 03 설계 패턴 |
 | 앱 팀이 플랫폼 위에서 첫 서비스를 기획부터 출시까지 만든다 | [앱 가이드 00 개관](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/00-orientation.md) → 02 어디에 쓰나 | 04–07 설계 → 08–11 구축 → 12–13 검증과 출시 → 14 운영 |
-
-### 다루는 질문
-
-- 과제가 산적한 조직은 어떤 시선으로 문제를 찾고 어떻게 정의하는가 (AX 02, 03)
-- 이 문제는 왜 지금까지 못 풀었고, AI가 아니어도 풀리는 것은 아닌가 (AX 03의 3.3절, 3.4절)
-- 파일럿을 계속할지 멈출지는 무엇으로 판정하고, 단일 ROI 숫자 없이 투자 판단은 어떻게 받는가 (AX 04)
-- 외부 전문가나 FDE에게 맡길 때 무엇을 미리 정해야 끝난 뒤 사내에 주인이 남는가 (AX 05의 5.3절)
-- 퍼블릭과 온프렘 가운데 어디서 돌릴지는 무엇으로 판단하고, 이미 클라우드에 있는 것은 되돌려야 하는가 (AX 06, Private AI 07의 8.5절)
-- 데이터를 외부로 보내지 않고 LLM, RAG, 에이전트를 운영하려면 어떤 인프라가 필요한가 (Private AI 01, 07)
-- GPU는 몇 장이 필요하고 총소유비용은 어떻게 산정하는가 (Private AI 06)
-- 같은 모델을 사업부마다 따로 배포하지 않으려면 어떻게 설계하는가 (Private AI 07의 3.4.1절, PAIS 3.0 공유 모델)
-- 에이전트는 어떤 업무에 효과가 있고 어떤 업무에서 실패하는가 (앱 가이드 02)
-- 에이전트의 가드레일과 운영 책임은 앱과 플랫폼 중 어디에 두는가 (앱 가이드 12, 13, 14, Private AI 05의 08)
-- 직원들이 승인 없이 쓰는 AI 도구(섀도 AI)는 어떻게 찾고, 금지 대신 어떻게 다루는가 (AX 07의 7.6절, Private AI 05의 7.2.3절)
-- API 게이트웨이는 지금 무엇으로 두고 로드맵에는 어떻게 대응하는가 (Private AI 03의 5.7절, 앱 가이드 05)
-- 문서보안(DRM)이 걸린 문서를 검색 소스로 안전하게 연결하려면 어떻게 하는가, 전부 복호화해야 하는가 (앱 가이드 06, Private AI 05의 5.9절)
-- 사내 문서가 한국어인데 모델, 임베딩, 파이프라인은 무엇을 기준으로 고르는가 (앱 가이드 10의 10.7절, 06의 6.8절)
-- 공개 모델을 사내 서비스에 써도 되는가, 라이선스는 무엇을 확인하나 (앱 가이드 10의 10.8절, Private AI 05의 4.2절)
+| 문서보안(DRM)이 적용된 문서를 검색 소스로 연결하려는 담당자 | [앱 가이드 06 데이터 소스 온보딩](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/06-data-onboarding.md) | Private AI 05 보안의 5.9절 DRM 복호화 거버넌스 |
+| 한국어 문서에 맞는 모델과 임베딩을 골라야 하는 개발자 | [앱 가이드 10 모델과 서빙](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/10-models-serving.md)(10.7절) | 06의 6.8절 국내 저장소의 장벽 |
+| 공개 모델을 사내 서비스에 사용하기 전 라이선스를 심사하는 담당자 | [앱 가이드 10 모델과 서빙](https://github.com/JaeHoYun/vcf-private-ai-apps/blob/main/docs/10-models-serving.md)(10.8절) | Private AI 05 보안의 4.2절 모델 공급망 |
 
 오류 제보와 의견은 각 저장소의 Issues로 보내 주시면 됩니다.
 
