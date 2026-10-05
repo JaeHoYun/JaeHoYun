@@ -3,11 +3,11 @@ Modern Private Cloud(VCF), Private AI(PAIF / PAIS), Enterprise AI Transformation
 
 ### 가이드 구성
 
-세 가이드는 **전략 → 플랫폼 → 실행** 순서로 구성되어 있습니다. 문서는 모두 94편이며, 가이드 사이에 관련 문서 링크를 두어 필요한 부분만 골라 읽을 수 있습니다. 1번 가이드는 특정 제품이나 실행 환경을 전제하지 않습니다. 문제를 정의하고 검증한 뒤 실행 환경으로 사내 구축을 선택한 경우에 2번과 3번으로 이어집니다.
+세 가이드는 **전략 → 플랫폼 → 실행** 순서로 구성되어 있습니다. 가이드 사이에 관련 문서 링크를 두어 필요한 부분만 골라 읽을 수 있습니다. 1번 가이드는 특정 제품이나 실행 환경을 전제하지 않습니다. 문제를 정의하고 검증한 뒤 실행 환경으로 사내 구축을 선택한 경우에 2번과 3번으로 이어집니다.
 
 | 1. 전략 → | 2. 플랫폼 → | 3. 실행 |
 |---|---|---|
-| **[기업용 AX 방법론](https://github.com/JaeHoYun/enterprise-ax-methodology)**<br>벤더 중립, 9편 | **[VCF Private AI 인프라](https://github.com/JaeHoYun/vcf-private-ai)**<br>PAIF / PAIS, Primer 포함 70편 | **[VCF Private AI 앱과 에이전트 서비스](https://github.com/JaeHoYun/vcf-private-ai-apps)**<br>15편 |
+| **[기업용 AX 방법론](https://github.com/JaeHoYun/enterprise-ax-methodology)**<br>벤더 중립 | **[VCF Private AI 인프라](https://github.com/JaeHoYun/vcf-private-ai)**<br>PAIF / PAIS, Primer 포함 | **[VCF Private AI 앱과 에이전트 서비스](https://github.com/JaeHoYun/vcf-private-ai-apps)** |
 | 출발점 → 문제 정의 → 검증 → 해결 경로와 실행 환경 → 조직과 확장 | 인프라 → 데이터 → 서빙 → RAG, 보안, 사이징, 통합 설계 | 기획과 선정 → 설계 → 구축 → 검증과 출시 → 운영과 종료 |
 | 무엇이 문제이고, 누가 어디서 풀 것인가 | 사내에 구축한다면 어떤 인프라로 구현할 것인가 | 그 위에서 어떤 서비스를 만들 것인가 |
 
